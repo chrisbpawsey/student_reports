@@ -50,7 +50,7 @@
 
 
 
-\documentclass[journal]{IEEEtran}
+\documentclass[journal,a4paper]{IEEEtran}
 %
 % If IEEEtran.cls has not been installed into the LaTeX system files,
 % manually specify the path to it like:
@@ -112,7 +112,7 @@
 \ifCLASSINFOpdf
   \usepackage[pdftex]{graphicx}
   % declare the path(s) where your graphic files are
-   \graphicspath{{pdf/}{../jpeg/}}
+   \graphicspath{{./pdf/}{./jpeg/}}
   % and their extensions so you won't have to specify these with
   % every instance of \includegraphics
   \DeclareGraphicsExtensions{.pdf,.jpg,.png}
@@ -674,7 +674,7 @@ H.~Kopka and P.~W. Daly, \emph{A Guide to \LaTeX}, 3rd~ed.\hskip 1em plus
 % \includegraphics command within an optional argument. (You could create
 % your own custom macro containing the \includegraphics command to make things
 % simpler here.)
-\begin{IEEEbiography}[{\includegraphics[width=1in,height=1.25in,clip,keepaspectratio]{Journal_RCB}}]{Ralph Christopher Bording}
+\begin{IEEEbiography}[{\includegraphics[width=3cm,height=3.25cm,clip,keepaspectratio]{./pdf/Journal_RCB}}]{Ralph Christopher Bording}
 % or if you just want to reserve a space for a photo:
 
 %\begin{IEEEbiography}{Ralph Bording}
